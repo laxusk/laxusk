@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question</title>
+</head>
+<body>
+  <h1 id="resultText"></h1>
+  <script>
+  
+    
+    let response = prompt("Galit ka parin ba saken? Yes or no");
+    let outputText = "";
+    
+    if (response=="Yes"){
+      outputText = " Bati na tayo baby plss sorry na po:<  ";
+    }else if(response=="No"){
+      outputText = " Okii hehe I love youuu babyy wag na po away ah:< ";
+    }else{
+      outputText = "please type Yes or No!!";
+    }
+    
+    document.getElementById("resultText").innerHTML = outputText;
+  </script>
+</body>
+</html>
